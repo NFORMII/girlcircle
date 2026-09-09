@@ -38,10 +38,13 @@ export default function Home() {
           <div className="absolute bottom-24 right-1/3 text-6xl">🌙</div>
         </div>
         <div className="relative max-w-5xl mx-auto px-4 py-20 md:py-32 text-center">
-          <div className="text-6xl mb-6">🌸</div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-5 text-white leading-tight">
-            Every Girl Deserves<br />To Understand Her Body
+          <div className="text-6xl mb-4">🌸</div>
+          <h1 className="text-5xl md:text-7xl font-extrabold mb-5 text-white leading-tight tracking-tight">
+            GirlCircle
           </h1>
+          <h2 className="text-xl md:text-2xl font-medium text-pink-100 mb-10">
+            Every Girl Deserves To Understand Her Body
+          </h2>
           <p className="text-lg md:text-xl text-pink-100 max-w-2xl mx-auto mb-10 leading-relaxed">
             GirlCircle brings menstrual health education and hygiene kits to young women
             in underprivileged communities — because no one should face puberty in the dark.
