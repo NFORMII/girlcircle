@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { AppProvider } from "./context/AppContext";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -15,7 +15,7 @@ import "./index.css";
 export default function App() {
   return (
     <AppProvider>
-      <BrowserRouter basename="/girlcircle">
+      <HashRouter>
         <div className="min-h-screen bg-gradient-to-b from-pink-50/50 to-white">
           <Navbar />
           <main>
@@ -32,7 +32,7 @@ export default function App() {
             </Routes>
           </main>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </AppProvider>
   );
 }
