@@ -15,7 +15,7 @@ import "./index.css";
 export default function App() {
   return (
     <AppProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/girlcircle">
         <div className="min-h-screen bg-gradient-to-b from-pink-50/50 to-white">
           <Navbar />
           <main>
