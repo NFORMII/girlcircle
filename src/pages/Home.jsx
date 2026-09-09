@@ -38,10 +38,10 @@ export default function Home() {
           <div className="absolute bottom-24 right-1/3 text-6xl">🌙</div>
         </div>
         <div className="relative max-w-5xl mx-auto px-4 py-20 md:py-32 text-center">
-          <div className="text-6xl mb-4">🌸</div>
-          <h1 className="text-5xl md:text-7xl font-extrabold mb-5 text-white leading-tight tracking-tight">
-            GirlCircle
-          </h1>
+          <div className="flex items-center justify-center gap-4 mb-6">
+            <span className="text-6xl">🌸</span>
+            <span className="text-5xl md:text-7xl font-extrabold text-white tracking-tight">GirlCircle</span>
+          </div>
           <h2 className="text-xl md:text-2xl font-medium text-pink-100 mb-10">
             Every Girl Deserves To Understand Her Body
           </h2>
