@@ -8,7 +8,7 @@ export const mockQuestions = [
     upvotes: 24,
     answer: {
       text: "Yes, completely normal! Cramps before your period are called premenstrual cramps. They happen because your uterus is contracting to shed its lining. Try warm compresses, gentle exercise, and staying hydrated. If pain is severe, talk to a healthcare provider.",
-      educator: "Ms. Priya",
+      educator: "Educator",
       verified: true,
       timestamp: new Date(Date.now() - 86400000).toISOString(),
     },
@@ -22,7 +22,7 @@ export const mockQuestions = [
     upvotes: 18,
     answer: {
       text: "Great question! Track at least 3-4 cycles to see patterns. Note the first day of each period, flow intensity, and any symptoms. Irregular cycles are common in the first few years after starting. Our Cycle Tracker tool can help!",
-      educator: "Dr. Ananya",
+      educator: "Educator",
       verified: true,
       timestamp: new Date(Date.now() - 86400000 * 4).toISOString(),
     },
@@ -54,7 +54,7 @@ export const mockQuestions = [
     upvotes: 22,
     answer: {
       text: "Absolutely! Light to moderate exercise can actually help with cramps and mood. Walking, yoga, and swimming are great options. Listen to your body and rest if you need to. Stay hydrated!",
-      educator: "Ms. Kavitha",
+      educator: "Educator",
       verified: true,
       timestamp: new Date(Date.now() - 86400000 * 9).toISOString(),
     },

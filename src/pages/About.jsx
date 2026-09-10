@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import { Heart, Target, Users, BookOpen, ArrowRight } from "lucide-react";
 
 const team = [
-  { name: "Ananya Sharma", role: "Founder & Director", bio: "Former teacher who saw firsthand how menstrual stigma keeps girls out of school.", avatar: "👩🏽" },
-  { name: "Dr. Meera Iyer", role: "Health Advisor", bio: "Gynecologist with 15 years of experience in rural women's health.", avatar: "👩🏻‍⚕️" },
-  { name: "Kavitha Raj", role: "Programs Lead", bio: "Designed 85+ workshops across 12 schools in Rajasthan and Maharashtra.", avatar: "👩🏾" },
-  { name: "Priya Nair", role: "Community Manager", bio: "Connects with schools, volunteers, and donors to keep the mission running.", avatar: "👩🏼" },
+  { role: "Founder & Director", bio: "Former teacher who saw firsthand how menstrual stigma keeps girls out of school.", avatar: "👩🏽" },
+  { role: "Health Advisor", bio: "Gynecologist with 15 years of experience in rural women's health.", avatar: "👩🏻‍⚕️" },
+  { role: "Programs Lead", bio: "Designed 85+ workshops across 12 schools in Rajasthan and Maharashtra.", avatar: "👩🏾" },
+  { role: "Community Manager", bio: "Connects with schools, volunteers, and donors to keep the mission running.", avatar: "👩🏼" },
 ];
 
 const milestones = [
@@ -34,7 +34,7 @@ export default function About() {
         <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Story</h2>
         <div className="prose max-w-none text-gray-600 leading-relaxed space-y-4">
           <p>
-            GirlCircle began in 2021 when our founder, Ananya Sharma, was teaching at a
+            GirlCircle began in 2021 when our founder, a former school teacher, was teaching at a
             government school in Jaipur. She noticed girls quietly disappearing from class
             every month — some for days at a time. When she asked why, the answers were
             heartbreaking: they didn't have pads, they didn't understand what was happening
@@ -118,10 +118,9 @@ export default function About() {
         <div className="max-w-5xl mx-auto px-4 py-16">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">Meet the Team</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {team.map(({ name, role, bio, avatar }) => (
-              <div key={name} className="bg-white rounded-2xl p-6 shadow-sm border border-pink-50 text-center">
+            {team.map(({ role, bio, avatar }, i) => (
+              <div key={i} className="bg-white rounded-2xl p-6 shadow-sm border border-pink-50 text-center">
                 <div className="text-4xl mb-3">{avatar}</div>
-                <h3 className="font-bold text-sm">{name}</h3>
                 <p className="text-xs text-pink-500 font-medium mb-2">{role}</p>
                 <p className="text-xs text-gray-500 leading-relaxed">{bio}</p>
               </div>
