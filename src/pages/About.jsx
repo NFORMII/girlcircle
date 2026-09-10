@@ -9,7 +9,7 @@ const team = [
 ];
 
 const milestones = [
-  { year: "2021", event: "GirlCircle founded — first workshop in a single school in Jaipur" },
+  { year: "2021", event: "GirlCircle is a group that is aimed at distributing hygene kits to young girls in underprivileged commmunities" },
   { year: "2022", event: "Expanded to 5 schools, distributed 1,000 hygiene kits" },
   { year: "2023", event: "Launched online Q&A platform, reached 1,500+ girls" },
   { year: "2024", event: "Partnered with 12 schools, launched cycle tracker app" },
@@ -34,11 +34,11 @@ export default function About() {
         <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Story</h2>
         <div className="prose max-w-none text-gray-600 leading-relaxed space-y-4">
           <p>
-            GirlCircle began in 2021 when our founder, a former school teacher, was teaching at a
-            government school in Jaipur. She noticed girls quietly disappearing from class
-            every month — some for days at a time. When she asked why, the answers were
-            heartbreaking: they didn't have pads, they didn't understand what was happening
-            to their bodies, and they were too ashamed to ask.
+            GirlCircle exists because girls were quietly disappearing from class every month 
+              some for days at a time. The reasons, once uncovered, were heartbreaking:
+              no access to pads, little understanding of what was happening to their bodies, 
+              and too much shame to ask for help. GirlCircle was created to close that gap by
+              distributing hygiene kits to young girls in underprivileged communities.
           </p>
           <p>
             The silence around menstruation wasn't just uncomfortable — it was keeping
